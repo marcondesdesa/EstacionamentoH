@@ -1,0 +1,8 @@
+D:\EstacionamentoH\EstacionamentoH.Domain\bin\Debug\EstacionamentoH.Domain.dll
+D:\EstacionamentoH\EstacionamentoH.Domain\bin\Debug\EstacionamentoH.Domain.pdb
+D:\EstacionamentoH\EstacionamentoH.Domain\obj\Debug\EstacionamentoH.Domain.csproj.CoreCompileInputs.cache
+D:\EstacionamentoH\EstacionamentoH.Domain\obj\Debug\EstacionamentoH.Domain.dll
+D:\EstacionamentoH\EstacionamentoH.Domain\obj\Debug\EstacionamentoH.Domain.pdb
+D:\EstacionamentoH\EstacionamentoH.Domain\bin\Debug\System.ComponentModel.Annotations.dll
+D:\EstacionamentoH\EstacionamentoH.Domain\obj\Debug\EstacionamentoH.Domain.csproj.CopyComplete
+D:\EstacionamentoH\EstacionamentoH.Domain\obj\Debug\EstacionamentoH.Domain.csproj.AssemblyReference.cache

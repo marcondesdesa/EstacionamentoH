@@ -1,0 +1,16 @@
+D:\EstacionamentoH\EstacionamentoH.Infra.Data\bin\Debug\netcoreapp3.1\EstacionamentoH.Infra.Data.deps.json
+D:\EstacionamentoH\EstacionamentoH.Infra.Data\bin\Debug\netcoreapp3.1\EstacionamentoH.Infra.Data.runtimeconfig.json
+D:\EstacionamentoH\EstacionamentoH.Infra.Data\bin\Debug\netcoreapp3.1\EstacionamentoH.Infra.Data.runtimeconfig.dev.json
+D:\EstacionamentoH\EstacionamentoH.Infra.Data\bin\Debug\netcoreapp3.1\EstacionamentoH.Infra.Data.dll
+D:\EstacionamentoH\EstacionamentoH.Infra.Data\bin\Debug\netcoreapp3.1\EstacionamentoH.Infra.Data.pdb
+D:\EstacionamentoH\EstacionamentoH.Infra.Data\bin\Debug\netcoreapp3.1\EstacionamentoH.Domain.dll
+D:\EstacionamentoH\EstacionamentoH.Infra.Data\bin\Debug\netcoreapp3.1\EstacionamentoH.Domain.pdb
+D:\EstacionamentoH\EstacionamentoH.Infra.Data\obj\Debug\netcoreapp3.1\EstacionamentoH.Infra.Data.csproj.AssemblyReference.cache
+D:\EstacionamentoH\EstacionamentoH.Infra.Data\obj\Debug\netcoreapp3.1\EstacionamentoH.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\EstacionamentoH\EstacionamentoH.Infra.Data\obj\Debug\netcoreapp3.1\EstacionamentoH.Infra.Data.AssemblyInfoInputs.cache
+D:\EstacionamentoH\EstacionamentoH.Infra.Data\obj\Debug\netcoreapp3.1\EstacionamentoH.Infra.Data.AssemblyInfo.cs
+D:\EstacionamentoH\EstacionamentoH.Infra.Data\obj\Debug\netcoreapp3.1\EstacionamentoH.Infra.Data.csproj.CoreCompileInputs.cache
+D:\EstacionamentoH\EstacionamentoH.Infra.Data\obj\Debug\netcoreapp3.1\EstacionamentoH.Infra.Data.csproj.CopyComplete
+D:\EstacionamentoH\EstacionamentoH.Infra.Data\obj\Debug\netcoreapp3.1\EstacionamentoH.Infra.Data.dll
+D:\EstacionamentoH\EstacionamentoH.Infra.Data\obj\Debug\netcoreapp3.1\EstacionamentoH.Infra.Data.pdb
+D:\EstacionamentoH\EstacionamentoH.Infra.Data\obj\Debug\netcoreapp3.1\EstacionamentoH.Infra.Data.genruntimeconfig.cache
