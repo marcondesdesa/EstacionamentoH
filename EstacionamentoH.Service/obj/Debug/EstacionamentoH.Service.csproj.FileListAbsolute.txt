@@ -1,0 +1,5 @@
+D:\EstacionamentoH\EstacionamentoH.Service\bin\Debug\EstacionamentoH.Service.dll
+D:\EstacionamentoH\EstacionamentoH.Service\bin\Debug\EstacionamentoH.Service.pdb
+D:\EstacionamentoH\EstacionamentoH.Service\obj\Debug\EstacionamentoH.Service.csproj.CoreCompileInputs.cache
+D:\EstacionamentoH\EstacionamentoH.Service\obj\Debug\EstacionamentoH.Service.dll
+D:\EstacionamentoH\EstacionamentoH.Service\obj\Debug\EstacionamentoH.Service.pdb
