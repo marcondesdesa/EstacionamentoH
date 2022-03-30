@@ -42,7 +42,7 @@ namespace EstacionamentoH.MVC.Controllers
             {
                 var condutorDomain = Mapper.Map<CondutorViewModel, Condutor>(condutor);
                 _condutorAppService.Add(condutorDomain);
-                return RedirectToAction("Index");
+                return Redirect("Condutores/Index");
             }  
             return View(condutor);
         }
@@ -62,7 +62,7 @@ namespace EstacionamentoH.MVC.Controllers
             {
                 var condutorDomain = Mapper.Map<CondutorViewModel, Condutor>(condutor);
                 _condutorAppService.Update(condutorDomain);
-                return RedirectToAction("Index");
+                return Redirect("Condutores/Index");
             }
             return View(condutor);
         }
@@ -80,7 +80,7 @@ namespace EstacionamentoH.MVC.Controllers
         {
             var condutor = _condutorAppService.GetById(id);
             _condutorAppService.Remove(condutor);
-            return RedirectToAction("Index");
+            return Redirect("Condutores/Index");
         }
     }
 }

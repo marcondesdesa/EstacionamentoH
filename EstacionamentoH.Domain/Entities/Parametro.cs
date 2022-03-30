@@ -8,7 +8,13 @@ namespace EstacionamentoH.Domain.Entities
     public partial class Parametro
     {
         public int Id { get; set; }
-        public string DiaLivre { get; set; }
+        public bool Dia0 { get; set; }
+        public bool Dia1 { get; set; }
+        public bool Dia2 { get; set; }
+        public bool Dia3 { get; set; }
+        public bool Dia4 { get; set; }
+        public bool Dia5 { get; set; }
+        public bool Dia6 { get; set; }
         public TimeSpan HoraInicial { get; set; }
         public TimeSpan HoraFinal { get; set; }
       

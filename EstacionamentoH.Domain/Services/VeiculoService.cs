@@ -14,5 +14,9 @@ namespace EstacionamentoH.Domain.Services
         {
             _veiculoRepository = veiculoRepository;
         }
+        public IEnumerable<Veiculo> GetPorPlaca(string placa)
+        {
+            return _veiculoRepository.GetPorPlaca(placa);
+        }
     }
 }

@@ -9,7 +9,7 @@ namespace EstacionamentoH.Domain.Entities
     {
         public int Id { get; set; }
         public string Nome { get; set; }
-        public decimal SaldoMinuto { get; set; }
+        public int SaldoMinuto { get; set; }
         public DateTime DataUltimoLancamento { get; set; }
         public virtual ICollection<Estacionamento> Estacionamentos { get; set; }
 

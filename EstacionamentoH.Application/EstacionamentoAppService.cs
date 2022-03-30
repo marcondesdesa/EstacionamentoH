@@ -14,5 +14,9 @@ namespace EstacionamentoH.Domain.Interfaces.Services
         {
             _estacionamentoService = estacionamentoService;
         }
+        public Estacionamento GetVeiculo(string placa)
+        {
+            return _estacionamentoService.GetVeiculo(placa);
+        }
     }
 }
