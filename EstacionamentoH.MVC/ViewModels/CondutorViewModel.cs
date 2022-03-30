@@ -20,10 +20,11 @@ namespace EstacionamentoH.MVC.ViewModels
         public string Nome { get; set; }
 
         [DisplayName("Saldo disponível")]
-        public decimal SaldoMinuto { get; set; }
+        [DataType(DataType.Currency)]
+        public int SaldoMinuto { get; set; }
 
         [DisplayName("Último Lançamento")]
-        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime DataUltimoLancamento { get; set; }
 
         public virtual ICollection<Estacionamento> Estacionamentos { get; set; }

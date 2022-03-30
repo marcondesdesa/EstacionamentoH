@@ -1,6 +1,7 @@
 ﻿using EstacionamentoH.Domain.Entities;
 using EstacionamentoH.Domain.Interfaces.Repositories;
 using EstacionamentoH.Domain.Interfaces.Services;
+using System;
 using System.Collections.Generic;
 
 namespace EstacionamentoH.Domain.Services
@@ -13,6 +14,10 @@ namespace EstacionamentoH.Domain.Services
             : base(precoRepository)
         {
             _precoRepository = precoRepository;
+        }
+        public Preco GetPrecoVigente(DateTime data)
+        {
+            return _precoRepository.GetPrecoVigente(data);
         }
     }
 }

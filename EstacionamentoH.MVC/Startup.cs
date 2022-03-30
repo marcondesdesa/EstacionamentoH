@@ -67,7 +67,7 @@ namespace EstacionamentoH.MVC
             }
             else
             {
-                app.UseExceptionHandler("/Condutores/Index");
+                app.UseExceptionHandler("/Error");
             }
             app.UseStaticFiles();
 

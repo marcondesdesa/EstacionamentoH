@@ -11,16 +11,33 @@ namespace EstacionamentoH.MVC.ViewModels
         [Key]
         public int Id { get; set; }
 
-        [DisplayName("Dias da semana livres")]
-        [Required(ErrorMessage = "Informe os dias livres")]
-        [MaxLength(100, ErrorMessage = "Máximo é {0} caracteres")]
-        [MinLength(1, ErrorMessage = "Mínimo é {0} caracteres")]
-        public string DiaLivre { get; set; }
-        
-        [DisplayName("Hora inicial livre")]
+        [DisplayName("Segunda-Feira")]
+        public bool Dia1 { get; set; }
+
+        [DisplayName("Terça-Feira")]
+        public bool Dia2 { get; set; }
+
+        [DisplayName("Quarta-Feira")]
+        public bool Dia3 { get; set; }
+
+        [DisplayName("Quinta-Feira")]
+        public bool Dia4 { get; set; }
+
+        [DisplayName("Sexta-Feira")]
+        public bool Dia5 { get; set; }
+
+        [DisplayName("Sábado")]
+        public bool Dia6 { get; set; }
+
+        [DisplayName("Domingo")]
+        public bool Dia0 { get; set; }
+
+        [DisplayName("Hora Livre Inicial")]
+        [DataType(DataType.Time)]
         public TimeSpan HoraInicial { get; set; }
 
-        [DisplayName("Hora final livre")]
+        [DisplayName("Hora Livre Final")]
+        [DataType(DataType.Time)]
         public TimeSpan HoraFinal { get; set; }
 
         public virtual ICollection<Estacionamento> Estacionamentos { get; set; }

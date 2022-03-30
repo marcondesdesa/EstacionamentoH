@@ -14,5 +14,10 @@ namespace EstacionamentoH.Domain.Interfaces.Services
         {
             _veiculoService = veiculoService;
         }
+
+        public IEnumerable<Veiculo> GetPorPlaca(string placa)
+        {
+            return _veiculoService.GetPorPlaca(placa);
+        }
     }
 }

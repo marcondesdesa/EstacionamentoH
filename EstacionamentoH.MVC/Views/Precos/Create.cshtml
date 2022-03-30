@@ -1,0 +1,53 @@
+﻿@model EstacionamentoH.MVC.ViewModels.PrecoViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Preco</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="DataInicial" class="control-label"></label>
+                <input asp-for="DataInicial" class="form-control" />
+                <span asp-validation-for="DataInicial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataFinal" class="control-label"></label>
+                <input asp-for="DataFinal" class="form-control" />
+                <span asp-validation-for="DataFinal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ValorHoraInicial" class="control-label"></label>
+                <input asp-for="ValorHoraInicial" class="form-control" />
+                <span asp-validation-for="ValorHoraInicial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ValorHoraAdicional" class="control-label"></label>
+                <input asp-for="ValorHoraAdicional" class="form-control" />
+                <span asp-validation-for="ValorHoraAdicional" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tolerancia" class="control-label"></label>
+                <input asp-for="Tolerancia" class="form-control" />
+                <span asp-validation-for="Tolerancia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
